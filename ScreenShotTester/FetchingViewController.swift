@@ -7,31 +7,17 @@
 //
 
 import UIKit
-import Foundation
 import Photos
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return nil
-    }
+class FetchingViewController: UIViewController {
     
    
-    @IBAction func PhotoButton(_ sender: Any) {
-        fetchPhotos()
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-    
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    //MARK: Button Actions
     
     @IBAction func screenShotButton(_ sender: Any) {
         //Create the UIImage
@@ -44,8 +30,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //Save it to the camera roll
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
     }
-
     
+    @IBAction func PhotoButton(_ sender: Any) {
+        fetchPhotos()
+    }
+
+
+    //MARK: Screenshot Fetch
     var images:[UIImage] = []
     
     func fetchPhotos () {
