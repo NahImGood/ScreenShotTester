@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8407652C220D457B00E303EB /* ImageCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407652B220D457B00E303EB /* ImageCVC.swift */; };
+		8407652E220E1B2600E303EB /* ScreenShotStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407652D220E1B2600E303EB /* ScreenShotStruct.swift */; };
+		84076532220E2D2900E303EB /* ScreenShotMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84076531220E2D2900E303EB /* ScreenShotMC.swift */; };
 		846AEB0E2200ECD4009F99FA /* ScreenShotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AEB0D2200ECD4009F99FA /* ScreenShotCell.swift */; };
 		848363DD21F53B4D00B51EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848363DC21F53B4D00B51EA2 /* AppDelegate.swift */; };
-		848363DF21F53B4D00B51EA2 /* FetchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848363DE21F53B4D00B51EA2 /* FetchingViewController.swift */; };
+		848363DF21F53B4D00B51EA2 /* FetchingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848363DE21F53B4D00B51EA2 /* FetchingVC.swift */; };
 		848363E221F53B4D00B51EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848363E021F53B4D00B51EA2 /* Main.storyboard */; };
 		848363E421F53B4F00B51EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848363E321F53B4F00B51EA2 /* Assets.xcassets */; };
 		848363E721F53B4F00B51EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848363E521F53B4F00B51EA2 /* LaunchScreen.storyboard */; };
-		84F804DB2201432A008453AD /* ScreenShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F804DA2201432A008453AD /* ScreenShotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8407652B220D457B00E303EB /* ImageCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCVC.swift; sourceTree = "<group>"; };
+		8407652D220E1B2600E303EB /* ScreenShotStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotStruct.swift; sourceTree = "<group>"; };
+		84076531220E2D2900E303EB /* ScreenShotMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotMC.swift; sourceTree = "<group>"; };
 		846AEB0D2200ECD4009F99FA /* ScreenShotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotCell.swift; sourceTree = "<group>"; };
 		848363D921F53B4D00B51EA2 /* ScreenShotTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenShotTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848363DC21F53B4D00B51EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		848363DE21F53B4D00B51EA2 /* FetchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingViewController.swift; sourceTree = "<group>"; };
+		848363DE21F53B4D00B51EA2 /* FetchingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingVC.swift; sourceTree = "<group>"; };
 		848363E121F53B4D00B51EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848363E321F53B4F00B51EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848363E621F53B4F00B51EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848363E821F53B4F00B51EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84F804DA2201432A008453AD /* ScreenShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8407652F220E2CDB00E303EB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				846AEB0D2200ECD4009F99FA /* ScreenShotCell.swift */,
+				848363DE21F53B4D00B51EA2 /* FetchingVC.swift */,
+				8407652B220D457B00E303EB /* ImageCVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84076530220E2CFF00E303EB /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8407652D220E1B2600E303EB /* ScreenShotStruct.swift */,
+				84076531220E2D2900E303EB /* ScreenShotMC.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
 		848363D021F53B4D00B51EA2 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +81,9 @@
 		848363DB21F53B4D00B51EA2 /* ScreenShotTester */ = {
 			isa = PBXGroup;
 			children = (
+				84076530220E2CFF00E303EB /* ModelControllers */,
+				8407652F220E2CDB00E303EB /* ViewControllers */,
 				848363DC21F53B4D00B51EA2 /* AppDelegate.swift */,
-				848363DE21F53B4D00B51EA2 /* FetchingViewController.swift */,
-				846AEB0D2200ECD4009F99FA /* ScreenShotCell.swift */,
-				84F804DA2201432A008453AD /* ScreenShotViewController.swift */,
 				848363E021F53B4D00B51EA2 /* Main.storyboard */,
 				848363E321F53B4F00B51EA2 /* Assets.xcassets */,
 				848363E521F53B4F00B51EA2 /* LaunchScreen.storyboard */,
@@ -141,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8407652C220D457B00E303EB /* ImageCVC.swift in Sources */,
+				8407652E220E1B2600E303EB /* ScreenShotStruct.swift in Sources */,
 				846AEB0E2200ECD4009F99FA /* ScreenShotCell.swift in Sources */,
-				848363DF21F53B4D00B51EA2 /* FetchingViewController.swift in Sources */,
-				84F804DB2201432A008453AD /* ScreenShotViewController.swift in Sources */,
+				84076532220E2D2900E303EB /* ScreenShotMC.swift in Sources */,
+				848363DF21F53B4D00B51EA2 /* FetchingVC.swift in Sources */,
 				848363DD21F53B4D00B51EA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
